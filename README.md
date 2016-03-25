@@ -23,13 +23,7 @@ Technologies I will be using to create this game are:
 
 ##Version 1.0
 ###### Pseudocode
-1. Create sheets for html, css & Javascript.
-2. Link github repositories.
-3. Build html base structure & link all sheets to html
-4. Link in bootstrap, Jquery scripts
 
-5. Create a div hich will be the container to house the gameboard.
-6. 
 
 
 
