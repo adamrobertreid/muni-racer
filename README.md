@@ -29,7 +29,9 @@ Technologies I will be using to create this game are:
 4. Link in bootstrap, Jquery scripts
 5. Create a div hich will be the container to house the gameboard.
 6. Write a function using Javascript and JQuery that will allow me to make a object appear inside container.
-7. Get 
+7. Get player to move forward to the end of container.
+8. Declare player winner for getting to end of board.
+9. 
 
 
 
