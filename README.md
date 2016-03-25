@@ -28,9 +28,9 @@ Technologies I will be using to create this game are:
 3. Build html base structure & link all sheets to html
 4. Link in bootstrap, Jquery scripts
 5. Create a div hich will be the container to house the gameboard.
-6. Write a function using Javascript and JQuery that will allow me to make a object appear inside container.
+6. Write a function using Javascript and JQuery that will allow me to make a `player` object appear inside container.
 7. Get player to move forward to the end of container.
-8. Declare player winner for getting to end of board.
+8. Declare player winner for getting to end of board.*(possibly `alert`)*
 
 
 
@@ -43,15 +43,17 @@ Technologies I will be using to create this game are:
 | `keyPress` | Respond to key pressed on keyboard |
 
 ######Game Properties
-| Properites | Discriptions |
+| Properites | Discription |
 | --- | --- | 
-|`position` | Players position on board |
+| `position` | Players position on board |
 
 ###### Game Methods
-| Methods | Discriptions |
+| Methods | Discription |
 | --- | --- | 
-|`moveForward` | Player to move forward in game |
+| `moveForward` | Player to move forward in game |
 
 
+##Version 1.5
+###### Pseudocode
 
 
