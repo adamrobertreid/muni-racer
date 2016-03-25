@@ -31,7 +31,6 @@ Technologies I will be using to create this game are:
 6. Write a function using Javascript and JQuery that will allow me to make a object appear inside container.
 7. Get player to move forward to the end of container.
 8. Declare player winner for getting to end of board.
-9. 
 
 
 
@@ -40,14 +39,19 @@ Technologies I will be using to create this game are:
 | Objects | Description |
 | --- | --- |
 | `gameBoard` | What game is played within |
-| `bikePlayer`| The player/icon, poisiton |
-| `muniBus` | obsticle for player, *(ver 1.5)*|
-| `score` | Keeping track of players scores |
+| `Player`| The player |
+| `keyPress` | Respond to key pressed on keyboard |
 
-######Player Properties and Methods
-| Properites | Discriptions | Methods |
-| --- | --- | --- |
-|`
+######Game Properties
+| Properites | Discriptions |
+| --- | --- | 
+|`position` | Players position on board |
 
-|
+###### Game Methods
+| Methods | Discriptions |
+| --- | --- | 
+|`moveForward` | Player to move forward in game |
+
+
+
 
