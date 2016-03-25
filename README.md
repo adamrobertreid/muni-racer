@@ -55,5 +55,5 @@ Technologies I will be using to create this game are:
 
 ##Version 1.5
 ###### Pseudocode
-
+1. 
 
