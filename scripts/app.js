@@ -1,37 +1,37 @@
-console.log('Sanity Check: JS is working!');
-//variables for players
+console.log("JS has loaded!");
+
+//GLOBAL VARIABLES
 
 
+$(document).ready(function() {
+  console.log("the document is ready");
 
-$(document).on("ready", function() {
-  var source   = $("#raceCars").html();
-  var template = Handlebars.compile(source);
+  var playerOne = new Player (81, 0);
+  var playerTwo = new Player (80, 0);
 
-  var playerOne = new Player ("playerOne",81,0);
-  var playerTwo = new Player ("playerTwo",80,0);
-
-  var renderHTML = template({player: playerOne});
-
-  playerOne.move(); // calls player one to move left
-  playerTwo.move(); // calls player two to move left
-
-  console.log(playerOne);
   console.log(playerTwo);
+  console.log(playerOne);
 
-$('#path').append(renderHTML);
-console.log(renderHTML)
+  playerOne.move();
+  playerTwo.move();
+
+  function Player(keybutton, win) {
+    this.keybutton = keybutton;
+    this.win = win; //create for loop to declare winner
+    this.move = function() {
+      $(window).on('keydown', function moveRight(event) {
+          if(event.keyCode === 81) {
+            $('#player1').animate({ 'left': '+=10px' }, 0);
+          } else if(event.keyCode === 80) {
+            $('#player2').animate({ 'left': '+=10px' }, 0);
+          }
+        });
+      };
+  }
+
+
+
 });
 
-function Player (id,keybutton,win){
-    this.id = id;
-    this.keybutton = keybutton;
-    this.win = win;
-    this.move = function(){
-      $(window).on('keydown',function moveRight(event) {
 
-        if (event.keyCode === keybutton){
-          $('#'+id).animate({ "left": "+=20px" }, 0 );
-        }
-      });
-    };
-  }
+//34 keypresses to get to the end of the track.
