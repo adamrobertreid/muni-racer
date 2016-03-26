@@ -17,7 +17,9 @@ $(document).ready(function() {
 
   function Player(keybutton, win) {
     this.keybutton = keybutton;
-    this.win = win; //create for loop to declare winner
+    this.win = function(){
+      var keysCounted = 0;
+    }; //create for loop to declare winner
     this.move = function() {
       $(window).on('keydown', function moveRight(event) {
           if(event.keyCode === 81) {
