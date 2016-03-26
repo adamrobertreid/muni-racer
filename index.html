@@ -10,18 +10,20 @@
 <!-- JS -->
 <script src="http://code.jquery.com/jquery-2.2.2.min.js"></script>
 <script src="scripts/app.js"></script>
-
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
 <title>Racing Game</title>
 </head>
  <body>
 	 <h1>Simple Race</h1>
-	     <div class='first-track'>
-				 <div id='player1'>
+	 <div id=path>
+	 <script id="raceCars" type="text/x-handlebars-template">
+				 <!-- //{{#each player}} -->
+				 <div id='track'>
 				 </div>
-		   </div>
-			 <div class='second-track'>
-				 <div id='player2'>
- 				</div>
-		   </div>
+				 <div id='{{id}}' class='player'>
+				 </div>
+				 <!-- {{/each}} -->
+		 </script>
+	 </div>
  </body>
 </html>

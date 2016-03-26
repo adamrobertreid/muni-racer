@@ -10,15 +10,7 @@
   border:2px solid red;
   margin-top: 20px;
 }
-#player1 {
-  position:relative;
-  width:80px; height:80px;
-  border:2px solid black;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  background: black;
-}
-#player2 {
+.player {
   position:relative;
   width:80px; height:80px;
   border:2px solid black;
