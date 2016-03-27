@@ -2,6 +2,7 @@
   position:relative;
   width:740px; height:150px;
   border:2px solid red;
+  background-image: url('http://i.imgur.com/hoVFeMb.png');
 }
 
 .second-track {
@@ -9,6 +10,7 @@
   width:740px; height:150px;
   border:2px solid red;
   margin-top: 20px;
+  background-image: url('http://i.imgur.com/hoVFeMb.png');
 }
 #player1 {
   position:relative;
