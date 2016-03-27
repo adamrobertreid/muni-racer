@@ -1,12 +1,12 @@
 .first-track {
   position:relative;
-  width:800px; height:150px;
+  width:730px; height:150px;
   border:2px solid red;
 }
 
 .second-track {
   position:relative;
-  width:800px; height:150px;
+  width:730px; height:150px;
   border:2px solid red;
   margin-top: 20px;
 }
