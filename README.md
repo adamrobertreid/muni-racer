@@ -1,4 +1,4 @@
-# Racing Cars
+# MUNI *RACER*
 #### What is this project?
 To build a browser game, synthesizing all the knowledge we've learnt over the past two weeks.
 We will be leveraging the power of JQuery to create a **Racing Game**, where two players can move their "bikes
@@ -15,11 +15,12 @@ the gamer will be able to race against another player through a street trying no
 ### Technical Requirements
 Technologies I will be using to create this game are:
 - JQuery
-- Object Oriented Programming *(design patterns)*
+- //Object Oriented Programming *(design patterns)*//=>requirements not implemented, will try in version 1.5
 - Create and use seperate **HTML, CSS, & JavaScript** files.
 - Create a CSS styling that is pleasing for UI
 - **KISS** (keep it simple stupid) & **DRY** (Don't Repaet Yourself)
 - Include a **public GitHub Respository**.
+- Restart game after alert function.
 
 ##Version 1.0
 ###### Pseudocode
@@ -34,7 +35,7 @@ Technologies I will be using to create this game are:
 
 
 
-## Objects the game will require to run
+## Objects the game will require to run 
 ######Main game objects
 | Objects | Description |
 | --- | --- |
@@ -51,9 +52,15 @@ Technologies I will be using to create this game are:
 | Methods | Discription |
 | --- | --- | 
 | `moveForward` | Player to move forward in game |
+| `alertWinner` | Alert player winner |
+| `restartGame` | Restart game after alerted winner |
+
+####Images created and used for MUNI *RACER* game.
+![alt tag](http://i.imgur.com/j8K9pDB.png)
+
+Created on Photoshop to div pixels W & H. Saved as .png and uploaded via imgur.
 
 
-##Version 1.5
-###### Pseudocode
-1. 
+![alt tag](http://i.imgur.com/OdW5jat.png)
 
+Created on Photoshop to div pixels W & H. Saved as .png and uploaded via imgur.
