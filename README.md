@@ -66,4 +66,4 @@ Created on Photoshop to div pixels W & H. Saved as .png and uploaded via imgur.
 Created on Photoshop to div pixels W & H. Saved as .png and uploaded via imgur.
 
 
-[Muni Racer, BitBalloon link](muni-racer-v1-0.bitballoon.com)
+[Muni Racer, BitBalloon LINK:](http://muni-racer-v1-0.bitballoon.com/)
