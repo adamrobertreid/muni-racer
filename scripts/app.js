@@ -17,8 +17,11 @@ $(document).ready(function() {
   function winner() {
       if ($('#player1').css('left') === '610px') {
         alert("Player One Wins!!!");
+        location.reload();
       }else if ($('#player2').css('left') === '610px') {
         alert("Player Two Wins!!!");
+        location.reload();
+
 
       }
     }
