@@ -28,7 +28,7 @@ $(document).ready(function() {
 
 //Function event listener works by moving div after keys Q & P are pressed
       function race() {
-      $(window).on('keydown', function moveRight(event) {
+      $(window).on('keyup', function moveRight(event) {
           if(winner());
           if(event.keyCode === keyQ) {
             $('#player1').animate({ 'left': '+=10px' }, 0);
