@@ -52,6 +52,6 @@ Technologies I will be using to create this game are:
 | --- | --- | 
 | `moveForward` | Player to move forward in game |
 | `alertWinner` | Alert player winner |
-
+| `restartGame` | Restart game after alerted winner |
 
 
