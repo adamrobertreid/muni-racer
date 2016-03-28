@@ -55,4 +55,5 @@ Technologies I will be using to create this game are:
 | `alertWinner` | Alert player winner |
 | `restartGame` | Restart game after alerted winner |
 
-
+####Images created and used for MUNI *RACER* game.
+![alt tag](http://i.imgur.com/j8K9pDB.png)
