@@ -57,6 +57,7 @@ Technologies I will be using to create this game are:
 
 ####Images created and used for MUNI *RACER* game.
 ![alt tag](http://i.imgur.com/j8K9pDB.png)
+
 Created on Photoshop to div pixels W & H. Saved as .png and uploaded via imgur.
 
 
