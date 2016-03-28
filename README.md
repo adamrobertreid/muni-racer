@@ -20,6 +20,7 @@ Technologies I will be using to create this game are:
 - Create a CSS styling that is pleasing for UI
 - **KISS** (keep it simple stupid) & **DRY** (Don't Repaet Yourself)
 - Include a **public GitHub Respository**.
+- Restart game after alert function.
 
 ##Version 1.0
 ###### Pseudocode
