@@ -1,4 +1,4 @@
-# Racing Cars
+# MUNI *RACER*
 #### What is this project?
 To build a browser game, synthesizing all the knowledge we've learnt over the past two weeks.
 We will be leveraging the power of JQuery to create a **Racing Game**, where two players can move their "bikes
