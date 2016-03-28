@@ -6,7 +6,9 @@ var keyP = 80;//key assigned to player two is P
 $(document).ready(function() {
   console.log("the document is ready");
 
-  race();
+  race();//race function called to play game
+
+  //JQuery for reset button that will refresh page to reset.
   $(".btn").on("click", function resetWholeGame(event){
     window.location.reload();
 });
@@ -21,7 +23,7 @@ $(document).ready(function() {
       }
     }
 
-//Function event listener works by moving div after certain keys are pressed
+//Function event listener works by moving div after keys Q & P are pressed
       function race() {
       $(window).on('keydown', function moveRight(event) {
           if(winner());
