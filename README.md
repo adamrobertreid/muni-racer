@@ -15,7 +15,7 @@ the gamer will be able to race against another player through a street trying no
 ### Technical Requirements
 Technologies I will be using to create this game are:
 - JQuery
-- Object Oriented Programming *(design patterns)*
+- //Object Oriented Programming *(design patterns)*//=>requirements not implemented, will try in version 1.5
 - Create and use seperate **HTML, CSS, & JavaScript** files.
 - Create a CSS styling that is pleasing for UI
 - **KISS** (keep it simple stupid) & **DRY** (Don't Repaet Yourself)
@@ -53,7 +53,4 @@ Technologies I will be using to create this game are:
 | `moveForward` | Player to move forward in game |
 
 
-##Version 1.5
-###### Pseudocode
-1. 
 
