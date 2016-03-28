@@ -32,17 +32,17 @@ strong{
 }
 #player1 {
   position:relative;
-  width:100px; height:103px;
-  margin-top: 22px;
+  width:110px; height:110px;
+  margin-top: 17px;
   margin-bottom: 25px;
-  background-image: url('http://i.imgur.com/SSRGiMk.png');
+  background-image: url('http://i.imgur.com/OdW5jat.png');
 }
 #player2 {
   position:relative;
-  width:100px; height:103px;
-  margin-top: 22px;
+  width:110px; height:110px;
+  margin-top: 17px;
   margin-bottom: 25px;
-  background-image: url('http://i.imgur.com/SSRGiMk.png');
+  background-image: url('http://i.imgur.com/OdW5jat.png');
 }
 .btn{
   margin-top: 25px;
