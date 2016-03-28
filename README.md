@@ -34,7 +34,7 @@ Technologies I will be using to create this game are:
 
 
 
-## Objects the game will require to run
+## Objects the game will require to run 
 ######Main game objects
 | Objects | Description |
 | --- | --- |
@@ -51,6 +51,7 @@ Technologies I will be using to create this game are:
 | Methods | Discription |
 | --- | --- | 
 | `moveForward` | Player to move forward in game |
+| `alertWinner` | Alert player winner |
 
 
 
