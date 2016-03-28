@@ -20,19 +20,17 @@ h1{
 }
 #player1 {
   position:relative;
-  width:80px; height:80px;
-  border:2px solid black;
-  margin-top: 25px;
+  width:100px; height:103px;
+  margin-top: 22px;
   margin-bottom: 25px;
-  background: black;
+  background-image: url('http://i.imgur.com/SSRGiMk.png');
 }
 #player2 {
   position:relative;
-  width:80px; height:80px;
-  border:2px solid black;
-  margin-top: 25px;
+  width:100px; height:103px;
+  margin-top: 22px;
   margin-bottom: 25px;
-  background: black;
+  background-image: url('http://i.imgur.com/SSRGiMk.png');
 }
 .btn{
   margin-top: 25px;

@@ -13,9 +13,9 @@ $(document).ready(function() {
 
 //Function will alert winner once either players div(car) reaches end of track.
   function winner() {
-      if ($('#player1').css('left') === '650px') {
+      if ($('#player1').css('left') === '630px') {
         alert("Player One Wins!!!");
-      }else if ($('#player2').css('left') === '650px') {
+      }else if ($('#player2').css('left') === '630px') {
         alert("Player Two Wins!!!");
 
       }
