@@ -1,14 +1,26 @@
 h1{
-  font-family: 'Faster One', cursive;
+  /*font-family: 'Faster One', cursive;*/
   font-size: 100px;
+  font-family: 'Monoton', cursive;
+  color: #E6454D;
+  font-style:italic;
 }
 
-
+b{
+  font-family: 'Faster One', cursive;
+  margin-left: 40px;
+}
+strong{
+  font-family: 'Faster One', cursive;
+  font-size: 20px;
+  margin-left: 5px;
+  color: #E6454D;
+}
 .first-track {
   position:relative;
   width:740px; height:150px;
   border:4px solid black ;
-  background-image: url('http://i.imgur.com/OGP5K4z.png');
+  background-image: url('http://i.imgur.com/j8K9pDB.png');
 }
 
 .second-track {
@@ -16,7 +28,7 @@ h1{
   width:740px; height:150px;
   border:4px solid black;
   margin-top: 20px;
-  background-image: url('http://i.imgur.com/OGP5K4z.png');
+  background-image: url('http://i.imgur.com/Sa5jfmw.png');
 }
 #player1 {
   position:relative;
